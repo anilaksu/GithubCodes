@@ -18,5 +18,5 @@ plot( time[1:45], power[1:45], type="l", col="green" ,axes=FALSE
 legend('topright', "Current in Amperes","Power in Watt" , 
    lty=1, col=c('red',  'green'), bty='n', cex=.75)
 
-
+# minor change
 #print(length(time));
