@@ -1,3 +1,7 @@
+!!! This file contains all grid generation operations including:
+!!! 1) 1D GLL and Fourier Points
+!!! 2) 2D GLL-GLL, GLL-Fourier, Fourier-Fourier points
+!!! 3) Coordinate Mapping functions like Numerical Jacobian Matrix calculations
 subroutine OneDGrid(x_ini,x_end,x_grid,N)
 	integer i
 	! the number of grid points
