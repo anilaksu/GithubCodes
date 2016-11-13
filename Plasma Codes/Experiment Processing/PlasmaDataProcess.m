@@ -21,6 +21,7 @@ ExpData=textread('202163.txt')
 %% ExpData(:,10)=Pcol
 %% ExpData(:,24)=Minutes
 %% ExpData(:,25)=Second
+%% ExpData(:,27)=Tch chamber temperature
 
 %% let's transform min:sec to sec
 time=zeros(length(ExpData(:,1)),1);
