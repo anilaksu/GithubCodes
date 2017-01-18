@@ -1,0 +1,6 @@
+#!/bin/bash
+
+make clean
+make
+./2DSEM_FISModel 
+
